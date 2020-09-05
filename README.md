@@ -4,6 +4,8 @@ Just a naive benchmark for Native C, JavaScript and WASM implementations of Prim
 
 The benchmark is computing 10⁷th prime number using the algorithm the name of which I don't remember (check [./prime.c](./prime.c) for the implementation). If somebody knows the name please submit a PR fixing this README, thanks!
 
+Implemented as a part of [tsoding/bng](https://github.com/tsoding/bng) project.
+
 ## Dependencies
 
 - C compiler: [gcc] or [clang]
