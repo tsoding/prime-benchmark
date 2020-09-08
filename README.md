@@ -2,7 +2,7 @@
 
 Just a naive benchmark for Native C, JavaScript and WASM implementations of Prime Number Generator. Not intended to be serious or/and complete assessment of the performance of the mentioned technologies.
 
-The benchmark is computing 10⁷th prime number using the algorithm the name of which I don't remember (check [./prime.c](./prime.c) for the implementation). If somebody knows the name please submit a PR fixing this README, thanks!
+The benchmark is computing 10⁷th prime number using Fibonacci's [Trial division](https://en.wikipedia.org/wiki/Trial_division) algorithm.
 
 Implemented as a part of [tsoding/bng](https://github.com/tsoding/bng) project.
 
